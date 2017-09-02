@@ -4,6 +4,8 @@ div {
 }
 
 
+/* Set color for all DIVs inside .android */
+
 div div {
     background: #a4ca39;
     position: relative;
@@ -14,6 +16,9 @@ div div {
     width: 334px;
     margin: 100px auto;
 }
+
+
+/* Styling the android's head */
 
 .head {
     border-radius: 110px 110px 0 0;
@@ -32,10 +37,31 @@ div div {
     width: 20px;
 }
 
+/* Set the position of the eyes */
 .l_eye {
     left: 50px;
 }
 
 .r_eye {
     right: 50px;
+}
+
+.l_ant,
+.r_ant {
+    border-radius: 3px;
+    height: 50px;
+    position: absolute;
+    top: -34px;
+    width: 6px;
+}
+
+/* Set the position of the ants */
+.l_ant {
+    left: 50px;
+    transform: rotate(-30deg);
+}
+
+.r_ant {
+    right: 50px;
+    transform: rotate(30deg);
 }
