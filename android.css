@@ -27,6 +27,9 @@ div div {
     width: 220px;
 }
 
+
+/* Set the position of the eyes */
+
 .l_eye,
 .r_eye {
     background: #fff;
@@ -37,7 +40,6 @@ div div {
     width: 20px;
 }
 
-/* Set the position of the eyes */
 .l_eye {
     left: 50px;
 }
@@ -45,6 +47,9 @@ div div {
 .r_eye {
     right: 50px;
 }
+
+
+/* Set the position of the antennae */
 
 .l_ant,
 .r_ant {
@@ -55,7 +60,6 @@ div div {
     width: 6px;
 }
 
-/* Set the position of the ants */
 .l_ant {
     left: 50px;
     transform: rotate(-30deg);
@@ -64,4 +68,54 @@ div div {
 .r_ant {
     right: 50px;
     transform: rotate(30deg);
+}
+
+
+/* Style bugdroid's body */
+
+.body {
+    border-radius: 0 0 25px 25px;
+    height: 184px;
+    top: 40px;
+    width: 220px;
+}
+
+.l_arm,
+.r_arm,
+.l_leg,
+.r_leg {
+    position: absolute;
+    width: 50px;
+}
+
+
+.l_arm,
+.r_arm {
+    border-radius: 25px;
+    height: 150px;
+}
+
+.l_leg,
+.r_leg {
+    border-radius: 0 0 25px 25px;
+    height: 80px;
+    top: 182px;
+}
+
+/* Set the absolute position of arms and legs */
+
+.l_arm {
+    left: -58px;
+}
+
+.r_arm {
+    right: -58px;
+}
+
+.l_leg {
+    left: 45px;
+}
+
+.r_leg {
+    right: 45px;
 }
