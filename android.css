@@ -86,8 +86,8 @@ div div {
 .r_leg {
     position: absolute;
     width: 50px;
+    transition: all 0.1s ease-in;
 }
-
 
 .l_arm,
 .r_arm {
@@ -101,6 +101,7 @@ div div {
     height: 80px;
     top: 182px;
 }
+
 
 /* Set the absolute position of arms and legs */
 
@@ -118,4 +119,19 @@ div div {
 
 .r_leg {
     right: 45px;
+}
+
+
+/* Animate the head */
+
+.head:hover {
+    transform: rotate(-5deg) translate(-4px, -8px);
+}
+
+.l_arm:hover {
+    transform: rotate(15deg) translate(-14px,0);
+}
+
+.r_arm:hover {
+    transform: rotate(-30deg) translate(30px,0);
 }
